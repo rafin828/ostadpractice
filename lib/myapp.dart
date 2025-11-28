@@ -6,6 +6,7 @@ import 'Alart.dart';
 import 'gridiew.dart';
 import 'modul10;class3.dart';
 import 'module11and 1.dart';
+import 'module12-2/tab.dart';
 class Myapp extends StatelessWidget {
   const Myapp({super.key});
 
@@ -41,7 +42,7 @@ class Myapp extends StatelessWidget {
       darkTheme: ThemeData.dark(),
       themeMode: ThemeMode.system,
       title: "hello",
-      home: Alart(),
+      home: tab(),
     );
   }
 }
