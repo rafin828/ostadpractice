@@ -2,7 +2,7 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:ostadclassagain2/module12-2/practice_2.dart';
-import 'package:ostadclassagain2/practice.dart';
+import 'package:ostadclassagain2/travel_ui.dart';
 import 'package:ostadclassagain2/stack.dart';
 
 import 'Alart.dart';
@@ -48,7 +48,7 @@ class Myapp extends StatelessWidget {
       darkTheme: ThemeData.dark(),
       themeMode: ThemeMode.system,
       title: "hello",
-      home: testt(),
+      home: rfn(),
      // initialRoute: '/class9',
       routes: {
       //  '/home' : (context)=>Alart(),

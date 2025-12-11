@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../Alart.dart';
 import '../gridiew.dart';
-import '../practice.dart';
+import '../travel_ui.dart';
 
 class tab extends StatelessWidget {
   const tab({super.key});
