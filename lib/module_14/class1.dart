@@ -14,6 +14,12 @@ class responsive extends StatelessWidget {
       ),
       body: Padding(
         padding: const EdgeInsets.all(30.0),
+
+        ///Expanded
+        ///Flexible
+        ///FittedBox
+        /// Wrap
+        /// AspectRatio
         child: SingleChildScrollView(
           child: Column(
             children: [
@@ -30,6 +36,9 @@ class responsive extends StatelessWidget {
                   );
 
                 }),
+              ///<600 px → Mobile
+              /// 600-1000 px → Tablet
+              /// >1000 px → Desktop
 
 
 
