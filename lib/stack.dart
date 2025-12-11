@@ -86,10 +86,7 @@ class rafi extends StatelessWidget {
             SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) =>Alart ()),
-                );
+                Navigator.pushNamed(context, '/home');
               },
               child: Text("next"),
             ),

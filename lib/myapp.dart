@@ -1,4 +1,7 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
+import 'package:ostadclassagain2/module12-2/practice_2.dart';
 import 'package:ostadclassagain2/practice.dart';
 import 'package:ostadclassagain2/stack.dart';
 
@@ -6,7 +9,10 @@ import 'Alart.dart';
 import 'gridiew.dart';
 import 'modul10;class3.dart';
 import 'module11and 1.dart';
+import 'module12-2/moudule_12_clss3.dart';
 import 'module12-2/tab.dart';
+import 'module_14/class1.dart';
+import 'module_14/class_1_expended.dart';
 class Myapp extends StatelessWidget {
   const Myapp({super.key});
 
@@ -42,7 +48,18 @@ class Myapp extends StatelessWidget {
       darkTheme: ThemeData.dark(),
       themeMode: ThemeMode.system,
       title: "hello",
-      home: tab(),
+      home: expen(),
+     // initialRoute: '/class9',
+      routes: {
+      //  '/home' : (context)=>Alart(),
+      //  '/class2' : (context)=>rafi(),
+      //  '/class3' : (context)=>grid(),
+       // '/buttonNav' : (context)=>buttomNv(),
+       // '/class4' : (context)=>islam(),///Navigation er jonoo use hoi
+//'/class9':(context)=>islam()
+
+
+      },
     );
   }
 }
