@@ -73,7 +73,7 @@ class responsive extends StatelessWidget {
               ),
 
 
-               orientation==Orientation.landscape? Text("my name is rafin",
+               orientation==Orientation.landscape? Text("my name is rafin islam",
                 style: TextStyle(
                   fontSize: 32,
                   color: Colors.red
@@ -82,7 +82,7 @@ class responsive extends StatelessWidget {
 
 
 
-              Text("fixd size"),
+              Text("fixd size no"),
               SizedBox(height: 10,),
               Container(
                 height: 100,width: 150,
