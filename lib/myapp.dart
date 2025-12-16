@@ -8,6 +8,7 @@ import 'package:ostadclassagain2/travel_ui.dart';
 import 'package:ostadclassagain2/stack.dart';
 
 import 'module_15/class2.dart';
+import 'module_15/class3_calcu.dart';
 import 'module_15/class_1.dart';
 import 'module_15/class_1_2.dart';
 import 'module_15/class_2_splashscreen.dart';
@@ -54,7 +55,7 @@ class Myapp extends StatelessWidget {
           darkTheme: ThemeData.dark(),
           themeMode: ThemeMode.system,
           title: "hello",
-          home: splshsereen(),
+          home: CalculatorApp(),
           // initialRoute: '/class9',
           routes: {
             //  '/home' : (context)=>Alart(),
